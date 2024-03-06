@@ -1013,10 +1013,10 @@ class TestWumpusWorld(unittest.TestCase):
     #     """
     #     Shooting when the wumpus is outside the arrow trajectory does nothing.
     #     """
-    #     world = WumpusWorld(agent_location = (1, 1), agent_direction = 'East',
-    #         wumpus_location = (2, 2), wumpus_alive = True)
+    #     world = WumpusWorld(agent_location = (1, 1), agent_direction = 'North',
+    #         wumpus_location = (3, 1), wumpus_alive = True)
     #     world.shot()
-    #     self.assertEqual((2, 2), world.wumpus_location)
+    #     self.assertEqual((3, 1), world.wumpus_location)
     #     self.assertTrue(world.wumpus_alive)
     #     self.assertIsNone(world.percept(world.agent_location)[4]) # No scream
 
