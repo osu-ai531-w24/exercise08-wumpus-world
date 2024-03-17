@@ -687,7 +687,7 @@ class TestWumpusWorld(unittest.TestCase):
     #     world = WumpusWorld(agent_location = (2, 1), agent_direction = 'South')
     #     self.assertEqual('Bump', world.percept((2, 1))[3])
 
-    # def test_percept_bump(self):
+    # def test_percept_no_bump(self):
     #     """
     #     A location with a wall in which the agent is not facing the wall does
     #     not emit a 'Bump' percept.
